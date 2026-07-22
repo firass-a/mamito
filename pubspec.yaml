@@ -1,0 +1,53 @@
+name: mamyto
+description: MAMYTO — pregnancy & motherhood companion (production-quality prototype)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  fl_chart: ^0.70.2
+  table_calendar: ^3.1.3
+  cached_network_image: ^3.4.1
+  animations: ^2.0.11
+  phosphor_flutter: ^2.1.0
+  smooth_page_indicator: ^1.2.0+3
+  equatable: ^2.0.7
+  collection: ^1.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  freezed: ^2.5.8
+  json_serializable: ^6.9.4
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/branding/mamyto_icon_opaque.png
+  adaptive_icon_background: "#F7F5FA"
+  adaptive_icon_foreground: assets/branding/mamyto_icon.png
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/illustrations/
+    - assets/branding/
