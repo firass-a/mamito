@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Built APKs (keep them local / CI artifacts only)
+*.apk
+*.aab
